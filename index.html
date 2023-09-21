@@ -1,313 +1,1112 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" class="ie"lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7"  class="ie"lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8"  class="ie"lang="en-US">
+<![endif]-->
+<!--[if IE 9]>
+<html id="ie9"  class="ie"lang="en-US">
+<![endif]-->
+<!--[if gt IE 9]>
+<html class="ie"lang="en-US">
+<![endif]-->
+<!--[if !IE]>
+<html lang="en-US">
+<![endif]-->
+
+<!-- START HEAD -->
+<html>
 <head>
-<link rel="stylesheet" type="text/css" href="base.css" />
-<link rel="stylesheet" type="text/css" href="content.css" />
-<link rel="stylesheet" type="text/css" href="nav.css" />
-<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Pomabamba </title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
-<script type="text/javascript" src="exe_jquery.js"></script>
-<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
-<script type="text/javascript" src="common.js"></script>
-<script type="text/javascript" src="mojomagnify.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+
+    <!-- this line will appear only if the website is visited with an iPad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
+
+    <title>Sihuas</title>
+
+    <!-- RESET STYLESHEET -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+    <!-- BOOTSTRAP STYLESHEET -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
+    <!-- MAIN THEME STYLESHEET -->
+    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+
+    <link rel='stylesheet' id='custom-css' href='css/custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-fonts-css' href='http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
+    <link rel='stylesheet' id='responsive-css' href='css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='thickbox-css' href='js/thickbox/thickbox.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='tipsy-css' href='css/tipsy.css' type='text/css' media='all' />
+
+    <link rel='stylesheet' id='fonts-css' href='css/font-awesome.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='full-descriptor-css' href='portfolios/full-description/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='slide-details-css' href='portfolios/slide-detail/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='shortcode-css' href='css/shortcodes.css' type='text/css' media='all' />
+
+    <link rel='stylesheet' id='colorbox-css' href='css/colorbox.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-button-mfast-3-css' href='css/buttons/mfast-3.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='flexslider-css' href='sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='flexslider-elegant-css' href='sliders/flexslider-elegant/css/slider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-css' href='sliders/revolution-slider/css/slider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-settings-css' href='sliders/revolution-slider/rs-plugin/css/settings.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-captions-css' href='sliders/revolution-slider/rs-plugin/css/captions.css' type='text/css' media='all' />
+
+    <!-- [favicon] begin -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- [favicon] end -->
+
+    <!-- Touch icons more info: http://mathiasbynens.be/notes/touch-icons -->
+    <!-- For iPad3 with retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x.png" />
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x.png" />
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x.png">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png" />
+
+
+
+    <script type='text/javascript' src='js/jquery/jquery.js'></script>
 </head>
-<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>
-<div id="content">
-<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
-<div id="siteNav">
-<ul>
-   <li id="active"><a href="index.html" class="active daddy main-node">Pomabamba</a></li>
-   <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
-   <li><a href="galeria.html" class="no-ch">Galeria</a></li>
-</ul>
-</div>
-<div id='topPagination'>
-<div class="pagination noprt">
-<a href="introduccin.html" class="next"> Siguiente<span> &raquo;</span></a>
-</div>
-</div>
-<div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Pomabamba</h1></div>
-<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id7">
-<script type="text/javascript">
-<!-- //<![CDATA[
-var numQuestions = 4;
-var rawScore = 0;
-var actualScore = 0;
-var question0;
-var question1;
-var question2;
-var question3;
-var key0 = 2;
-var key1 = 1;
-var key2 = 0;
-var key3 = 2;
-function getAnswer()
-        {
-            for (var i=0; i < 3; i++)
-            {
-               if (document.getElementById("quizForm7").key0b7[i].checked)
-               {
-                  question0 = document.getElementById("quizForm7").key0b7[i].value;
-                  break;
-               }
-            }
-            
-            for (var i=0; i < 3; i++)
-            {
-               if (document.getElementById("quizForm7").key1b7[i].checked)
-               {
-                  question1 = document.getElementById("quizForm7").key1b7[i].value;
-                  break;
-               }
-            }
-            
-            for (var i=0; i < 3; i++)
-            {
-               if (document.getElementById("quizForm7").key2b7[i].checked)
-               {
-                  question2 = document.getElementById("quizForm7").key2b7[i].value;
-                  break;
-               }
-            }
-            
-            for (var i=0; i < 3; i++)
-            {
-               if (document.getElementById("quizForm7").key3b7[i].checked)
-               {
-                  question3 = document.getElementById("quizForm7").key3b7[i].value;
-                  break;
-               }
-            }
-            }
-        function calcRawScore(){
+<!-- END HEAD -->
 
-            if (question0 == key0)
-            {
-               rawScore++;
-            }
-            if (question1 == key1)
-            {
-               rawScore++;
-            }
-            if (question2 == key2)
-            {
-               rawScore++;
-            }
-            if (question3 == key3)
-            {
-               rawScore++;
-            }
-        
-        }
-        
-        function calcScore2()
-        {
-            getAnswer();
-     
-            calcRawScore();
-            actualScore =  Math.round(rawScore / numQuestions * 100);
-            document.getElementById("quizForm7").submitB.disabled = true;
-            alert("Su puntuación es " + actualScore + "%")
-           
-        }
-//]]>    -->
-    </script>
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario SCORM</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<form name="quizForm7" id="quizForm7" action="javascript:calcScore2();">
-<input type="hidden" name="passrate" id="passrate-7" value="50" />
-<div class="question">
-<h3 class="js-sr-av">Pregunta</h3>
-<div id="taquestion0b7" class="block iDevice_content">
-<p>¿Dónde se encuentra ubicada Pomabamba?</p>
-</div>
-<div class="iDevice_answers">
-<h4 class="js-sr-av">Respuestas</h4>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key0b71" class="sr-av"><a href="#answer-key0b71">Opción 1</a></label><input type="radio" name="key0b7" id="key0b71" value="0" />
-</p>
-<div class="iDevice_answer-content" id="answer-key0b71"><a name="answer-key0b71"></a>
-<div id="taoptionAnswer0q0b7" class="block iDevice_content">
-<p><span>En la región de Cusco</span></p>
-</div>
-</div>
-</div>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key0b72" class="sr-av"><a href="#answer-key0b72">Opción 2</a></label><input type="radio" name="key0b7" id="key0b72" value="1" />
-</p>
-<div class="iDevice_answer-content" id="answer-key0b72"><a name="answer-key0b72"></a>
-<div id="taoptionAnswer1q0b7" class="block iDevice_content">
-<p><span>En la región de Junín</span></p>
-</div>
-</div>
-</div>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key0b73" class="sr-av"><a href="#answer-key0b73">Opción 3</a></label><input type="radio" name="key0b7" id="key0b73" value="2" />
-</p>
-<div class="iDevice_answer-content" id="answer-key0b73"><a name="answer-key0b73"></a>
-<div id="taoptionAnswer2q0b7" class="block iDevice_content">
-<p><span>En la región de Ancash</span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="question">
-<h3 class="js-sr-av">Pregunta</h3>
-<div id="taquestion1b7" class="block iDevice_content">
-<p>¿Cuál es la altitud aproximada de Pomabamba?</p>
-</div>
-<div class="iDevice_answers">
-<h4 class="js-sr-av">Respuestas</h4>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key1b71" class="sr-av"><a href="#answer-key1b71">Opción 1</a></label><input type="radio" name="key1b7" id="key1b71" value="0" />
-</p>
-<div class="iDevice_answer-content" id="answer-key1b71"><a name="answer-key1b71"></a>
-<div id="taoptionAnswer0q1b7" class="block iDevice_content">
-<p>3000</p>
-</div>
-</div>
-</div>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key1b72" class="sr-av"><a href="#answer-key1b72">Opción 2</a></label><input type="radio" name="key1b7" id="key1b72" value="1" />
-</p>
-<div class="iDevice_answer-content" id="answer-key1b72"><a name="answer-key1b72"></a>
-<div id="taoptionAnswer1q1b7" class="block iDevice_content">
-<p><span>3350</span></p>
-</div>
-</div>
-</div>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key1b73" class="sr-av"><a href="#answer-key1b73">Opción 3</a></label><input type="radio" name="key1b7" id="key1b73" value="2" />
-</p>
-<div class="iDevice_answer-content" id="answer-key1b73"><a name="answer-key1b73"></a>
-<div id="taoptionAnswer2q1b7" class="block iDevice_content">
-<p>3250</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="question">
-<h3 class="js-sr-av">Pregunta</h3>
-<div id="taquestion2b7" class="block iDevice_content">
-<p>¿Qué imperio tuvo influencia sobre Pomabamba?</p>
-</div>
-<div class="iDevice_answers">
-<h4 class="js-sr-av">Respuestas</h4>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key2b71" class="sr-av"><a href="#answer-key2b71">Opción 1</a></label><input type="radio" name="key2b7" id="key2b71" value="0" />
-</p>
-<div class="iDevice_answer-content" id="answer-key2b71"><a name="answer-key2b71"></a>
-<div id="taoptionAnswer0q2b7" class="block iDevice_content">
-<p>Imperio Inca</p>
-</div>
-</div>
-</div>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key2b72" class="sr-av"><a href="#answer-key2b72">Opción 2</a></label><input type="radio" name="key2b7" id="key2b72" value="1" />
-</p>
-<div class="iDevice_answer-content" id="answer-key2b72"><a name="answer-key2b72"></a>
-<div id="taoptionAnswer1q2b7" class="block iDevice_content">
-<p>Imperio Asteca</p>
-</div>
-</div>
-</div>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key2b73" class="sr-av"><a href="#answer-key2b73">Opción 3</a></label><input type="radio" name="key2b7" id="key2b73" value="2" />
-</p>
-<div class="iDevice_answer-content" id="answer-key2b73"><a name="answer-key2b73"></a>
-<div id="taoptionAnswer2q2b7" class="block iDevice_content">
-<p><span>Imperio Romano</span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="question">
-<h3 class="js-sr-av">Pregunta</h3>
-<div id="taquestion3b7" class="block iDevice_content">
-<p>¿Cuál es la población aproximada de Pomabamba?</p>
-</div>
-<div class="iDevice_answers">
-<h4 class="js-sr-av">Respuestas</h4>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key3b71" class="sr-av"><a href="#answer-key3b71">Opción 1</a></label><input type="radio" name="key3b7" id="key3b71" value="0" />
-</p>
-<div class="iDevice_answer-content" id="answer-key3b71"><a name="answer-key3b71"></a>
-<div id="taoptionAnswer0q3b7" class="block iDevice_content">
-<p>Aproximadamente 6000</p>
-</div>
-</div>
-</div>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key3b72" class="sr-av"><a href="#answer-key3b72">Opción 2</a></label><input type="radio" name="key3b7" id="key3b72" value="1" />
-</p>
-<div class="iDevice_answer-content" id="answer-key3b72"><a name="answer-key3b72"></a>
-<div id="taoptionAnswer1q3b7" class="block iDevice_content">
-<p><span>Aproximadamente </span>7000</p>
-</div>
-</div>
-</div>
-<div class="iDevice_answer">
-<p class="iDevice_answer-field js-required">
-<label for="key3b73" class="sr-av"><a href="#answer-key3b73">Opción 3</a></label><input type="radio" name="key3b7" id="key3b73" value="2" />
-</p>
-<div class="iDevice_answer-content" id="answer-key3b73"><a name="answer-key3b73"></a>
-<div id="taoptionAnswer2q3b7" class="block iDevice_content">
-<p><span>Aproximadamente </span>10000</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="block iDevice_buttons">
-<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper ImageMagnifierIdevice" id="id13">
-<div class="iDevice emphasis0" >
-<div class="iDevice_content">
-<div class="image_text" style="width:250px;float:left;margin:0 20px 20px 0">
-<span class="image-thumbnail" id="image-thumbnail-13_101">
-<a href="SF1.png"><img src="SF1.png" alt="" width="250" height="500" class="magnifier-size-2 magnifier-zoom-100" /></a>
-</span>
-</div>
-<div id="ta13_102" class="iDevice_text">
+<!-- START BODY -->
 
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id='bottomPagination'>
-<div class="pagination noprt">
-<a href="introduccin.html" class="next"> Siguiente<span> &raquo;</span></a>
-</div>
-</div>
-</div>
-<script type="text/javascript" src="my_js.js"></script></body></html>
+<body class="home page no_js responsive stretched">
+
+    <!-- START BG SHADOW -->
+    <div class="bg-shadow">
+
+        <!-- START WRAPPER -->
+        <div id="wrapper" class="container group">
+            <!-- START TOP BAR -->
+
+            <!-- START TOP BAR -->
+            <!-- END TOP BAR -->
+
+            <!-- START HEADER -->
+            <div id="header" class="group">
+                <div class="group container">
+                    <div class="row">
+                        <div class="span12">
+
+                            <div class="row">
+                                <!-- START LOGO -->
+                                <div id="logo" class="span4 group">
+                                    <a id="logo-img" href="index.html" title="celestino">
+                                        <img src="images/celestino1.png" title="celestino" alt="celestino" />
+                                    </a>
+                                </div>
+                                <!-- END LOGO -->
+                                <div id="menu" class="span8 group">
+                                    <!-- START MAIN NAVIGATION -->
+                                    <div class="menu">
+                                        <ul id="nav" class="sf-menu">
+                                            <li class="nav-icon-hi current_page_item">
+                                                <a href="index.html">
+                                                    Inicio
+                                                    <div style="position:absolute; left: 50%;">
+                                                       
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-icon-doc">
+                                                <a href="pages-testimonials.html">
+                                                    Historia y Cultura
+                                                    <div style="position:absolute; left: 50%;">
+                                                        
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-icon-monitor">
+                                                <a href="testimonials-erica.html">
+                                                    Atracticos Turisticos
+                                                    <div style="position:absolute; left: 50%;">
+                                                        
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            
+                                            <li class="nav-icon-works">
+                                                <a href="sliders-thumbnails.html">
+                                                    Galeria
+                                                    <div style="position:absolute; left: 50%;">
+                                                        
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <!-- END MAIN NAVIGATION -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="border-header"></div>
+            </div>
+            <!-- END HEADER -->
+
+            <!-- START SLIDER -->
+            <div id="slider-revolution-slider" class="slider slider-revolution-slider revolution-slider">
+                <div class="shadowWrapper">
+
+                    <!-- START REVOLUTION SLIDER  -->
+                    <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:400px;">
+                        <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:400px;height:400;">
+                            <ul>
+                                <li data-transition="random" data-slotamount="7" data-masterspeed="300">
+                                    <img src="images/slider/1-bg.jpg">
+
+                                    <div class="tp-caption lfb" data-x="30" data-y="13" data-speed="2000" data-start="300" data-easing="easeOutQuint">
+                                        <img src="images/slider/1-l1.png" alt="Image1">
+                                    </div>
+
+                                    <div class="tp-caption main_title lft" data-x="490" data-y="71" data-speed="1000" data-start="1500" data-easing="easeOutQuint">
+                                        BIENVENIDO
+                                    </div>
+
+                                    <div class="tp-caption paragraph lfb" data-x="489" data-y="143" data-speed="1000" data-start="1800" data-easing="easeOutQuint">
+                                        a conocer
+                                        <br />
+                                        un poco mas sobre
+                                    </div>
+
+                                    <div class="tp-caption paragraph_highlighted lfr" data-x="490" data-y="232" data-speed="1000" data-start="2100" data-easing="easeOutQuint">
+                                        esta hermosa ciudad
+                                    </div>
+
+                                    <div class="tp-caption lfb" data-x="494" data-y="313" data-speed="1200" data-start="2500" data-easing="easeOutQuint">
+                                        <img src="images/slider/1-l2.png" alt="Image 5">
+                                    </div>
+
+                                    <div class="tp-caption lft" data-x="587" data-y="305" data-speed="1200" data-start="3000" data-easing="easeOutBounce">
+                                        <img src="images/slider/1-l3.png" alt="Image 8">
+                                    </div>
+
+                                    <div class="tp-caption lfr" data-x="665" data-y="305" data-speed="1200" data-start="3400" data-easing="easeOutQuint">
+                                        <img src="images/slider/1-l4.png" alt="Image 9">
+                                    </div>
+
+                                    <div class="tp-caption lfl" data-x="756" data-y="305" data-speed="1200" data-start="3800" data-easing="easeOutQuint">
+                                        <img src="images/slider/1-l5.png" alt="Image 10">
+                                    </div>
+
+                                    <div class="tp-caption lft" data-x="838" data-y="305" data-speed="1200" data-start="4200" data-easing="easeOutQuint">
+                                        <img src="images/slider/1-l6.png" alt="Image 11">
+                                    </div>
+
+                                    <div class="tp-caption lfb" data-x="920" data-y="305" data-speed="1200" data-start="4600" data-easing="easeOutQuint">
+                                        <img src="images/slider/1-l7.png" alt="Image 12">
+                                    </div>
+
+                                    <div class="tp-caption lft" data-x="959" data-y="305" data-speed="1200" data-start="5200" data-easing="easeOutQuint">
+                                        <img src="images/slider/1-l8.png" alt="Image 13">
+                                    </div>
+                                </li>
+                                <li data-transition="random" data-slotamount="7" data-masterspeed="300">
+                                    <img src="images/slider/2-bg.jpg" alt="2-bg">
+
+                                    <div class="tp-caption main_title lfr" data-x="0" data-y="60" data-speed="1000" data-start="300" data-easing="easeOutQuint">
+                                        La perla escondida de los Konchucos. <span style="font-family:'Dancing Script';font-weight:400;"></span> <br />
+                                    </div>
+
+                                    <div class="tp-caption lft" data-x="823" data-y="25" data-speed="1000" data-start="1600" data-easing="easeOutQuint">
+                                        <img src="images/slider/2-l1.png" alt="Image 4">
+                                    </div>
+
+                                    <div class="tp-caption lfb" data-x="598" data-y="166" data-speed="900" data-start="2000" data-easing="easeOutQuint">
+                                        <img src="images/slider/2-l2.png" alt="Image 5">
+                                    </div>
+
+                                    <div class="tp-caption lfl" data-x="795" data-y="158" data-speed="900" data-start="2400" data-easing="easeOutQuint">
+                                        <img src="images/slider/2-l3.png" alt="Image 6">
+                                    </div>
+                                </li>
+                                <li data-transition="random" data-slotamount="7" data-masterspeed="300">
+                                    <img src="images/slider/3-bg.jpg" alt="3-bg">
+
+                                    <div class="tp-caption paragraph sft" data-x="0" data-y="10" data-speed="1000" data-start="300" data-easing="easeOutQuint">
+                                        Conozca un poco más de esta hermosa provincia.
+                                    </div>
+
+                                    <div class="tp-caption paragraph_highlighted sft" data-x="0" data-y="35" data-speed="1000" data-start="300" data-easing="easeOutQuint">
+                                        Sus distritos.
+                                    </div>
+
+                                    <div class="tp-caption paragraph sfb" data-x="0" data-y="60" data-speed="1000" data-start="800" data-easing="easeOutQuint">
+                                        Atractivos turisticos.
+                                    </div>
+
+                                    <div class="tp-caption paragraph_highlighted sfb" data-x="0" data-y="85" data-speed="1000" data-start="800" data-easing="easeOutQuint">
+                                        Historia.
+                                    </div>
+
+                                    <div class="tp-caption paragraph sft" data-x="0" data-y="110" data-speed="1000" data-start="1300" data-easing="easeOutQuint">
+                                        Cultura.
+                                    </div>
+
+                                    <div class="tp-caption paragraph_highlighted sft" data-x="0" data-y="135" data-speed="1000" data-start="1300" data-easing="easeOutQuint">
+                                        Tradiciones.
+                                    </div>
+
+                                    <div class="tp-caption paragraph sfb" data-x="0" data-y="160" data-speed="1000" data-start="1800" data-easing="easeOutQuint">
+                                        Festividades.
+                                    </div>
+
+                                    <div class="tp-caption paragraph_highlighted sfb" data-x="0" data-y="185" data-speed="1000" data-start="1800" data-easing="easeOutQuint">
+                                        Paisajes.
+                                    </div>
+
+                                    <div class="tp-caption paragraph sft" data-x="0" data-y="210" data-speed="1000" data-start="2300" data-easing="easeOutQuint">
+                                        Gastronomia.
+                                    </div>
+
+                                    <div class="tp-caption paragraph_highlighted sft" data-x="0" data-y="235" data-speed="1000" data-start="2300" data-easing="easeOutQuint">
+                                        Ubicación.
+                                    </div>
+
+                                    <div class="tp-caption paragraph sfb" data-x="0" data-y="260" data-speed="1000" data-start="2800" data-easing="easeOutQuint">
+                                        Sitios arqueológicos.
+                                    </div>
+
+                                    <div class="tp-caption paragraph_highlighted sfb" data-x="0" data-y="285" data-speed="1000" data-start="2800" data-easing="easeOutQuint">
+                                        Todo eso usted lo encontrará aquí.
+                                    </div>
+
+                                    <div class="tp-caption lfr" data-x="338" data-y="10" data-speed="1000" data-start="4500" data-easing="easeOutQuint">
+                                        <img src="images/slider/3-l1.png" alt="Image 15">
+                                    </div>
+
+                                    <div class="tp-caption lfb" data-x="751" data-y="25" data-speed="1500" data-start="5000" data-easing="easeOutQuint">
+                                        <img src="images/slider/3-l2.png" alt="Image 16">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">
+                        var tpj = jQuery;
+
+                        tpj.noConflict();
+
+                        var revapi1;
+
+                        tpj(document).ready(function() {
+
+                            if (tpj.fn.cssOriginal != undefined)
+                                tpj.fn.css = tpj.fn.cssOriginal;
+
+                            if (tpj('#rev_slider_1_1').revolution == undefined)
+                                revslider_showDoubleJqueryError('#rev_slider_1_1');
+                            else
+                                revapi1 = tpj('#rev_slider_1_1').show().revolution({
+                                    delay: 9000,
+                                    startwidth: 1170,
+                                    startheight: 400,
+                                    hideThumbs: 200,
+
+                                    thumbWidth: 100,
+                                    thumbHeight: 50,
+                                    thumbAmount: 3,
+
+                                    navigationType: "none",
+                                    navigationArrows: "nexttobullets",
+                                    navigationStyle: "round",
+
+                                    touchenabled: "on",
+                                    onHoverStop: "off",
+
+                                    navOffsetHorizontal: 0,
+                                    navOffsetVertical: 20,
+
+                                    shadow: 0,
+                                    fullWidth: "on",
+
+                                    stopLoop: "off",
+                                    stopAfterLoops: -1,
+                                    stopAtSlide: -1,
+
+                                    shuffle: "off",
+
+                                    hideSliderAtLimit: 0,
+                                    hideCaptionAtLimit: 0,
+                                    hideAllCaptionAtLilmit: 0
+                                });
+
+                        }); //ready
+
+                    </script>
+
+                    <!-- END REVOLUTION SLIDER -->
+                </div>
+            </div>
+            <!-- FIN del SLIDER -->
+
+            <!-- START PAGE META -->
+            <div id="page-meta" class="container">
+                <!-- SLOGAN -->
+                <div class="slogan">
+                    <h2>DISTRITOS</h2>
+                    <h3>Pertenecientes:</h3>
+                </div>
+            </div>
+            <!-- END PAGE META -->
+
+            <!-- START PRIMARY -->
+            <div id="primary" class="sidebar-no">
+                <div class="container group">
+                    <div class="row">
+
+                        <!-- START CONTENT -->
+                        <div id="content-home" class="span12 content group">
+                            <div class="page type-page status-publish hentry group">
+
+                                <script>
+                                    jQuery(document).ready(function($) {
+                                        $('.sidebar').remove();
+
+                                        if (!$('#primary').hasClass('sidebar-no')) {
+                                            $('#primary').removeClass().addClass('sidebar-no');
+                                            $('.content').removeClass('span9').addClass('span12');
+                                        }
+
+                                    });
+
+                                </script>
+
+                                <div class="row">
+                                    <ul id="portfolio" class="slide-detail detail thumbnails">
+
+
+                                        <li class="filterable_item span3 brandidentity  logodesign  webdesign  first">
+
+                                            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/001-260x172.jpg') no-repeat center;">
+
+                                                <div class="ch-info">
+                                                    <div class="ch-info-icons">
+                                                        <a href="images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
+                                                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                                                        </a>
+                                                        <a href="portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
+                                                            <img src="images/icons/project.png" alt="" />
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div class="ch-info-text">
+                                                        <p class="title">Acobamba</p>
+                                                        <p class="subtitle">Sihuas</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="slide_detail">
+                                                <div class="container portfolio-full-description">
+                                                    <div class="slide_close">[x] Close</div>
+                                                    <div class="page type-page status-publish hentry work group row">
+                                                        <div class="work-thumbnail span6">
+                                                            <div class="thumb-wrapper">
+
+                                                                <div class="extra-images-slider">
+                                                                    <ul class="slides">
+                                                                        <li>
+                                                                            <img width="574" height="340" src="images/portfolios/111.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                                                        </li>
+                                                                        <li>
+                                                                            <img width="574" height="340" src="images/portfolios/011.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                                                        </li>
+                                                                        <li>
+                                                                            <img width="574" height="340" src="images/portfolios/111.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <script type="text/javascript">
+                                                                    jQuery(document).ready(function($) {
+                                                                        $('.extra-images-slider').flexslider({
+                                                                            controlNav: false
+                                                                        });
+                                                                    });
+
+                                                                </script>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="work-description span6">
+                                                            <h3>Acobamba</h3>
+                                                            <p>El ditrito de Acobamba fué creada mediante ley N°14152 del 22 de junio de 1962, por el Sr. Edilberto Reyes e integrado por los anexos de Huasco, Huancachaca, Quilca, Jocos, Choclos, Aranjuez, Huayllabamba, Paltas, Tinco y Hualgo.<br>
+                                                            El territorio de este distrito fue segregado del Distrito de Chingalpo, del cual era parte integrante. está ubicada a 3.140 m s. n. m.
+                                                            </p>
+                                                            <p>
+                                                                Fiesta Patronal: San Pedro - 29 de Junio.<br>
+                                                                Fiesta Patronal: Virgen María del Socorro - 04 de Octubre.<br>
+                                                                ECOTURISMO: La Cuenca del Río Ajtuy.<br>
+                                                                AGUAS TERMALES MEDICINALES : Los Baños de HUAJLO a las riveras del rìo Marañòn.<br>
+                                                                SITIOS ARQUEOLÓGICOS:<br>
+                                                                Ciudadela Arqueològica de Pucara.<br>
+                                                                Sitio Arqueológico de Huacaybamba.<br>
+                                                                Danzas: Los Pieles Rojas, Los Huanchacos de Huasco.<br>
+                                                                Semblanzas: La Corrida de Toros y la Entrada de Toros, Los Diablos.<br>
+                                                                TEATRO POPULAR: MOTECZUMA.<br>
+                                                            </p>
+                                                        </div>
+                                                        <!--more-->
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="filterable_item span3 brandidentity  logodesign ">
+
+                                            <div class="ch-item ch-item-hover" style="background: url('images/blog/0023-260x172.jpg') no-repeat center;">
+
+                                                <div class="ch-info">
+                                                    <div class="ch-info-icons">
+                                                        <a href="images/blog/0023.jpg" rel="lightbox" class="ch-info-lightbox">
+                                                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                                                        </a>
+                                                        <a href="portfolios/portfolio-detail/?cpt_item=vitale-premium" class="open_slide">
+                                                            <img src="images/icons/project.png" alt="" />
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="ch-info-text">
+                                                        <p class="title">Alfonso Ugarte</p>
+                                                        <p class="subtitle">Sihuas</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="slide_detail">
+                                                <div class="container portfolio-full-description">
+                                                    <div class="slide_close">[x] Close</div>
+                                                    <div class="page type-page status-publish hentry work group row">
+                                                        <div class="work-thumbnail span6">
+                                                            <div class="thumb-wrapper">
+                                                                <a class="thumb">
+                                                                    <img width="574" height="340" src="images/portfolios/0023-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="002" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="work-description span6">
+                                                            <h3>Alfonso Ugarte</h3>
+                                                            <p>El distrito fue creado mediante Ley N.º 11983 del 27 de marzo de 1953, en el gobierno del general de división, Manuel A. Odría.<br>
+                                                                Como capital fue designado el pueblo de Ullulluco, siendo segregado del distrito de Quiches.<br>
+                                                                Los ciudadanos impulsores de la creación del distrito fueron los señores: Daniel Raza, Abraham Acuña, Abdón Mata, Manuel Sotomayor, Máximo Quezada y Erculano Quezada.<br>Comprende los anexos de Sillahirca, Bellavista, El Porvenir, Ocshay, Puquio y Ulluluco.</p>
+                                                            <p>
+                                                                FESTIVIDAD PATRONAL: Santísima Virgen del Marañón - 14 de Setiembre.<br>
+                                                                CASERIOS:El Porvenir, Sillahirca, Asuy, Puquio, Ojshay.<br>
+                                                                DANZAS: Los Huanchacos de Ullulluco, Cañas Pallas, los Pastorcillos de Navidad.<br>
+                                                                ECOTURISMO: El Río Marañón - La Cuenca del Río Cañas - El Cañón de Cañas.
+                                                            </p>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="filterable_item span3 brandidentity  logodesign ">
+
+                                            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/00311-260x172.jpg') no-repeat center;">
+
+                                                <div class="ch-info">
+                                                    <div class="ch-info-icons">
+                                                        <a href="images/portfolios/0037.png" rel="lightbox" class="ch-info-lightbox">
+                                                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                                                        </a>
+                                                        <a href="portfolios/portfolio-detail/?cpt_item=nili-studios" class="open_slide">
+                                                            <img src="images/icons/project.png" alt="" />
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div class="ch-info-text">
+                                                        <p class="title">Cashapampa</p>
+                                                        <p class="subtitle">Sihuas</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="slide_detail" style="background-color: #f1f4f5;">
+                                                <div class="container portfolio-full-description">
+                                                    <div class="slide_close">[x] Close</div>
+                                                    <div class="page type-page status-publish hentry work group row">
+                                                        <div class="work-thumbnail span6">
+                                                            <div class="thumb-wrapper">
+
+
+                                                                <a class="thumb">
+                                                                    <img width="574" height="340" src="images/portfolios/0034-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="003" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="work-description span6">
+                                                            <h3>Cashapampa</h3>
+                                                            <p>Creado por Ley N° 14830 del 23 de enero de 1964.<br>
+                                                                Su capital fue designada el pueblo del mismo nombre.<br>
+                                                                El territorio de este distrito fue segregado de los Distritos de Sihuas y Sicsibamba.</p>
+                                                            <p>Caseríos : Huanchí, Pauca, Capacha, Shongohuarco, Colpa, Huayllampo, Tarabamba, Huayllampo Alto, Bellavista, Capacha , Pasacancha, otros.<br>
+                                                                Fiesta Patronal: Virgen del Rosario-08 de octubre.<br>
+                                                                Danza: Huanquillas de Huanchí, Huanquillas de Cashapampa, Antis de Capacha<br>
+                                                                LAGUNAS: Llamacocha, Berracococha,Quinuacocha, Bayococha, Bateacocha.<br>
+                                                                SITIOS ARQUEOLÒGICOS:<br>
+                                                                Ciudadela de Illauro (Huanchì)<br>
+                                                                Ciudadela de Gopcho (Pasacancha)<br>
+                                                                Cueva: Machay frente a Pasacancha</p>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="filterable_item span3 webdesign ">
+
+                                            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0047-260x172.jpg') no-repeat center;">
+
+                                                <div class="ch-info">
+                                                    <div class="ch-info-icons">
+                                                        <a href="images/portfolios/0411.jpg" rel="lightbox" class="ch-info-lightbox">
+                                                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                                                        </a>
+                                                        <a href="portfolios/portfolio-detail/?cpt_item=digitpool-medien" class="open_slide">
+                                                            <img src="images/icons/project.png" alt="" />
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div class="ch-info-text">
+                                                        <p class="title">Chingalpo</p>
+                                                        <p class="subtitle">Sihuas</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="slide_detail" style="background-color: #f1f4f5;">
+                                                <div class="container portfolio-full-description">
+                                                    <div class="slide_close">[x] Close</div>
+                                                    <div class="page type-page status-publish hentry work group row">
+                                                        <div class="work-thumbnail span6">
+                                                            <div class="thumb-wrapper">
+                                                                <a class="thumb">
+                                                                    <img width="574" height="340" src="images/portfolios/0043-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="004" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="work-description span6">
+                                                            <h3>Chingalpo</h3>
+                                                            <p>Fué creado mediante Ley N.º 13012 del 14 de junio de 1958, en el segundo gobierno del presidente Manuel Prado Ugarteche.<br>
+                                                                Chingalpo: Originalmente se llamó San Francisco de Chingalpo, denominado así por el español Juan Francisco de Quiñones.</p>
+                                                            <p>CASERIOS: Rayán, Tayabamba, San Miguel y Potrero.
+                                                                FIESTA PATRONAL: Santísima Virgen del Perpetuo Socorro - 28 de noviembre.<br>
+                                                                DANZA: Los Pieles Rojas, Los Antis.<br>
+                                                                ECOTURISMO: La Cuenca del Río Ajtuy.<br>
+                                                                LAGUNAS: Tinyacocha.<br>
+                                                                SITIOS ARQUEOLÒGICOS:<br>
+                                                                Pintura rupestre y tumbas : Rapihirca (San Miguel)<br>
+                                                                CIUDADELA DE POBLAZÒN-Marcahirca ( de Huayanay y Cen Rayàn)<br>
+                                                                Tumbas de Tinahirca.</p>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <hr />
+
+                                        <li class="filterable_item span3 brandidentity  webdesign  first">
+
+                                            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/00511-260x172.jpg') no-repeat center;">
+
+                                                <div class="ch-info">
+                                                    <div class="ch-info-icons">
+                                                        <a href="images/portfolios/0051.jpg" rel="lightbox" class="ch-info-lightbox">
+                                                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                                                        </a>
+                                                        <a href="portfolios/portfolio-detail/?cpt_item=colorful-oktopus" class="open_slide">
+                                                            <img src="images/icons/project.png" alt="" /></a>
+                                                    </div>
+
+
+                                                    <div class="ch-info-text">
+                                                        <p class="title">Huayllabamba</p>
+                                                        <p class="subtitle">Sihuas</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="slide_detail" style="background-color: #f1f4f5;">
+                                                <div class="container portfolio-full-description">
+                                                    <div class="slide_close">[x] Close</div>
+                                                    <div class="page type-page status-publish hentry work group row">
+                                                        <div class="work-thumbnail span6">
+                                                            <div class="thumb-wrapper">
+
+
+                                                                <a class="thumb">
+                                                                    <img width="574" height="340" src="images/portfolios/0054-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="005" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="work-description span6">
+                                                            <h3>Huallabamba</h3>
+                                                            <p>Creado por Ley Nº 12560 del 26 de enero de 1956.<br>
+                                                                El distrito se ubica en la parte central de la provincia de la vertiente oriental de los Andes, conformando la cuenca del Marañón en la parte Nor-Oriental del Departamento, a 3,310 m.s.n.m.</p>
+                                                            <p>CASERIOS: La Florida, Cutamayo, Sacsay, Pirpo, San José,
+                                                                Gasajpampa, Cuyojhuaylla, Santa Clara, Ahijadero,
+                                                                Túpac Amaru y Chullín.<br>
+                                                                Fiesta Patronal: San Pedro - 29 de junio.<br>
+                                                                Danza: “Huari Danza”.<br>
+                                                                LAGUNAS: Cushurobamba<br>
+                                                                SITIOS ARQUEOLÒGICOS:<br>
+                                                                CIUDADELA DE PIRUROHIRCA(Ahijadero), CIUDADELA DE SHOJTAHIRCA(Santa Clara), CIUDADELA DE PILLUPILLUHIRCA(Santa Clara)<br>
+                                                                Sitio Kotosh y otros.<br>
+                                                                SITIOS HISTÒRICOS:<br>
+                                                                TEMPLO COLONIAL DE SANTA CLARA.</p>
+                                                        </div>
+
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="filterable_item span3 brandidentity  webdesign ">
+
+                                            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0072-260x172.jpg') no-repeat center;">
+
+                                                <div class="ch-info">
+                                                    <div class="ch-info-icons">
+                                                        <a href="images/portfolios/0071.jpg" rel="lightbox" class="ch-info-lightbox">
+                                                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                                                        </a>
+                                                        <a href="portfolios/portfolio-detail/?cpt_item=kimeda" class="open_slide">
+                                                            <img src="images/icons/project.png" alt="" />
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="ch-info-text">
+                                                        <p class="title">Quiches</p>
+                                                        <p class="subtitle">Sihuas</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="slide_detail" style="background-color: #f1f4f5;">
+                                                <div class="container portfolio-full-description">
+                                                    <div class="slide_close">[x] Close</div>
+                                                    <div class="page type-page status-publish hentry work group row">
+                                                        <div class="work-thumbnail span6">
+                                                            <div class="thumb-wrapper">
+                                                                <a class="thumb">
+                                                                    <img width="574" height="340" src="images/portfolios/0072-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="007" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="work-description span6">
+                                                            <h3>Quiches</h3>
+                                                            <p>Se fundó como estancia o hacienda ganadera entre 1620 y 1630 por el hacendado español Juan Sánchez Morillos.<br>
+
+                                                                Fue creado como distrito mediante Ley N.º 1989 del 7 de octubre de 1914 y comprendía los pueblos de San Miguel.<br>
+                                                                El territorio del distrito de Quiches fue reducido al crearse el distrito de Alfonso Ugarte con su capital Ullulluco.<br>
+                                                                CASERIOS:Cóndor Cerro, Miobamba, Jocosbamba, Casablanca, Tinyayo.<br>
+                                                                FIESTA PATRONAL: Santísima Virgen de la Natividad - 8 de septiembre.<br>ECOTURISMO: Río Marañón - La Cuenca del Río Ajtuy - El Valle del Purhuay y Maraybamba en las riberas del río Marañón. - El Río Marañón - Cráter de Pachapashimín sobre Jocosbamba.<br>
+                                                                DANZAS: Caña Palla, Quillayay, los Pastorcillos de Navidad.<br>
+                                                                SITIOS ARQUEOLÒGICOS:<br>
+                                                                CIUDADELA DE LLAMA CORRAL - MARCA MARCA sobre San Isidro.<br>
+                                                                SITIO HISTÓRICO: Capilla de Jocosbamba.</p>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="filterable_item span3 brandidentity  logodesign  webdesign ">
+
+                                            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/piggie88-260x172.jpg') no-repeat center;">
+
+                                                <div class="ch-info">
+                                                    <div class="ch-info-icons">
+                                                        <a href="images/portfolios/piggie88-574x341.jpg" rel="lightbox" class="ch-info-lightbox">
+                                                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                                                        </a>
+                                                        <a href="portfolios/portfolio-detail/?cpt_item=piggy" class="open_slide">
+                                                            <img src="images/icons/project.png" alt="" />
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="ch-info-text">
+                                                        <p class="title">Ragash </p>
+                                                        <p class="subtitle">Sihuas</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="slide_detail" style="background-color: #f1f4f5;">
+                                                <div class="container portfolio-full-description">
+                                                    <div class="slide_close">[x] Close</div>
+                                                    <div class="page type-page status-publish hentry work group row">
+                                                        <div class="work-thumbnail span6">
+                                                            <div class="thumb-wrapper">
+
+
+                                                                <a class="thumb">
+                                                                    <img width="574" height="340" src="images/portfolios/piggie88-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="008" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="work-description span6">
+                                                            <h3>Ragash</h3>
+                                                            <p>Este distrito fue creado por disposición de la Ley N.º 14761, del 12 de diciembre de 1963, en los inicios del primer gobierno del Presidente Fernando Belaúnde Terry, siendo designado como capital el pueblo del mismo nombre.</p>
+                                                            <p>CASERIOS: Quingao, Tucush, Ayaviña, Manta, Paccha,
+                                                                Paicarán, Calia, Lachoj, Utuc y Ullucutay.<br>
+
+                                                                Danza : Las Pallas de Paicarán, “Los Pieles Rojas” de Quingao.<br>
+                                                                LAGUNAS: Huacacocha, Cushuropata, Champacocha, Coyllorcocha, Rimacocha, Puquirca, Angash, Potrero, Contamachay, Shuitococha, Ticllacocha, Huacacocha, Murococha, Azulcocha,Bateacocha otros.<br>
+                                                                SITIOS ARQUELÒGICOS:<br>
+                                                                CIUDADELA DE POBLAZÒN(Quingao), CIUDADELA DE LLANTÈN(La Esperanza), CIUDADELA DE POBLAZÒN(Tucucsh), CIUDADELA DE GANTUHIRCA(Paccha), CIUDADELA DE TICAHUASI(Paccha), CIUDADELA DE CAMPANARIO(Ragash), CIUDADELA DE POBLAZÓN (Ragash), CIUDADELA DE LLIPLLEG, CIUDADELA DE HUALLGASH, Camino Inca o Capac Ñan, Pallahuachanán, Pariachuco.</p>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="last filterable_item span3 logodesign">
+
+                                            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0098-260x172.jpg') no-repeat center;">
+
+                                                <div class="ch-info">
+                                                    <div class="ch-info-icons">
+                                                        <a href="images/portfolios/009.jpg" rel="lightbox" class="ch-info-lightbox">
+                                                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                                                        </a>
+                                                        <a href="portfolios/portfolio-detail/?cpt_item=guanacos" class="open_slide">
+                                                            <img src="images/icons/project.png" alt="" />
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div class="ch-info-text">
+                                                        <p class="title">San Juan</p>
+                                                        <p class="subtitle">Sihuas</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="slide_detail" style="background-color: #f1f4f5;">
+                                                <div class="container portfolio-full-description">
+                                                    <div class="slide_close">[x] Close</div>
+                                                    <div class="page type-page status-publish hentry work group row">
+                                                        <div class="work-thumbnail span6">
+                                                            <div class="thumb-wrapper">
+                                                                <a class="thumb">
+                                                                    <img width="574" height="340" src="images/portfolios/0091-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="009" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="work-description span6">
+                                                            <h3>San Juan</h3>
+                                                            <p>Creado mediante Ley N° 149631 del 14 de marzo de 1964, en el primer gobierno del Presidente Fernando Belaúnde Terry, Según los pobladores del Cerro Coricay, por acción de fenómenos telúricos se desprendió gran cantidad de piedras que formaron las tierras de Chullín.<br>FIESTA PATRONAL: 18 de julio en Homenaje a San Juan.<br>
+                                                                CENTROS POBLADOS:Colpapampa, Andaymayo, Chinchobamba, juntos tienen 29 caserios en su jurisdicción.<br>
+                                                                LAGUNAS: Tayacocha, Racaycocha, Ututococha, Asnococha, Shongococha, Mullacamachay, Urpaycocha, Huachococha, Azulcocha, Yanacocha, Huanhuacocha, Pumacocha, Huarmicocha.<br>
+                                                                DANZAS: “Los Huancas” de Chinchobamba, los Huanquillas de Chullín, los Negritos de Cilindre, “Las Pallas, Las Anacas, Los Antis.<br>
+                                                                SITIOS ARQUEOLÒGICOS:<br>
+                                                                EL CAMINO INCA O CAPAC ÑAN (Piruhirca) - Cuchipirao - KALLANKA Y TAMBO DE INCA RAGÁ - Mesa Rumi (Tauribamba-Palo Seco)<br>
+                                                                CIUDADELAS:TORREHIRCA (Tauribamba), MARCAHIRCA (Yachapa), MARCAMARCA (Chullapa), TUMBAS Y FORTALEZA DE SIPA (Pariashpampa-Colpapampa), PUMAWILLCA (Pariashpampa), MURADOHIRCA-HUACROHIRCA (Cochas), HISHCASCORRAL (Colpapampa).</p>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="last filterable_item span3 logodesign">
+
+                                            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/00999-260x172.jpg') no-repeat center;">
+
+                                                <div class="ch-info">
+                                                    <div class="ch-info-icons">
+                                                        <a href="images/portfolios/9sic.jpg" rel="lightbox" class="ch-info-lightbox">
+                                                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                                                        </a>
+                                                        <a href="portfolios/portfolio-detail/?cpt_item=guanacos" class="open_slide">
+                                                            <img src="images/icons/project.png" alt="" />
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div class="ch-info-text">
+                                                        <p class="title">Sicsibamba</p>
+                                                        <p class="subtitle">Sihuas</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="slide_detail" style="background-color: #f1f4f5;">
+                                                <div class="container portfolio-full-description">
+                                                    <div class="slide_close">[x] Close</div>
+                                                    <div class="page type-page status-publish hentry work group row">
+                                                        <div class="work-thumbnail span6">
+                                                            <div class="thumb-wrapper">
+                                                                <a class="thumb">
+                                                                    <img width="574" height="340" src="images/portfolios/0sic-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="009" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="work-description span6">
+                                                            <h3>Sicsibamba</h3>
+                                                            <p>El distrito fue creado mediante Ley n.º 1153 del 6 de noviembre de 1909<br>
+                                                                Su capital esta hubicada en Umbe</p>
+                                                            <p>CASERIOS:, Caniasbamba, Purupuru, Charcas, Balcón.<br>
+                                                                FIESTA PATRONAL: 25 de abril en Homenaje a San Marcos (Umbe), 14 de septiembre en Homenaje a la Santa Cruz (Sicsibamba).<br>
+                                                                ECOTURISMO: El Cañón del Río Rúpag por el cual se ubica los baños termales.<br>
+                                                                DANZAS: Huancas, Huanquillas, Los Antis, Las Anacas, Pallas.<br>
+                                                                SITIOS ARQUEOLÓGICOS:<br>
+                                                                CIUDADELA HUAUYASH (Umbe), CIUDADELA DE AUQUI HUARI ICHOC (Umbe), CIUDADELA DE AUQUI HUARI HATUN (Umbe).</p>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="last filterable_item span3 logodesign">
+
+                                            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0999-260x172.jpg') no-repeat center;">
+
+                                                <div class="ch-info">
+                                                    <div class="ch-info-icons">
+                                                        <a href="images/portfolios/9sihu.jpg" rel="lightbox" class="ch-info-lightbox">
+                                                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                                                        </a>
+                                                        <a href="portfolios/portfolio-detail/?cpt_item=guanacos" class="open_slide">
+                                                            <img src="images/icons/project.png" alt="" />
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div class="ch-info-text">
+                                                        <p class="title">Sihuas</p>
+                                                        <p class="subtitle">Sihuas</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="slide_detail" style="background-color: #f1f4f5;">
+                                                <div class="container portfolio-full-description">
+                                                    <div class="slide_close">[x] Close</div>
+                                                    <div class="page type-page status-publish hentry work group row">
+                                                        <div class="work-thumbnail span6">
+                                                            <div class="thumb-wrapper">
+                                                                <a class="thumb">
+                                                                    <img width="574" height="340" src="images/portfolios/0sihuas-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="009" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="work-description span6">
+                                                            <h3>Sihuas</h3>
+                                                            <p>El 09 de Enero de 1961, por Ley N° 13485, se crea Sihuas capital del distrito y de la provincia, designando a la Ciudad de Sihuas, la perla escondida de los conchucos.</p>
+                                                            <p>FIESTA PATRONAL:5 de agosto: Virgen de las Nieves.<br>
+                                                               ECOTURISMO:La cuenca del río Sihuas al unirse con la cuenca del río de Adaymayo y Chullìn, forman el Río Rùpaj y el Cañón de Rùpaj que mide más de 40km hasta desembocar al Río Marañón.<br>
+                                                                SITIOS ARQUEOLOGICOS:
+                                                                Ciudadela pashas o campanario (sobre Kerobamba y Siraomarca), Cruzhirca o Ventanahirca (Usamasanga), Sua Corral y Las Tumbas de Minas en Usamasanga.<br>
+                                                                Dentro de la provincia de Sihuas tenemos más de 100 sitios arqueológicos, de los cuales 30 son ciudadelas.<br>
+                                                                RESINTO HISTORICO: Templo Colonial de la Virgen María de las Nieves.<br>
+                                                                DANZAS:Las Huanquillas, los Antis, Las Pallas de Sihuas, los Turcos de Sihuas, los Pastorcillos de la Navidad de Sihuas, Pastorcillos de la Navidad de Uchugaga.<br>
+                                                                ESTAMPAS: Tunas Pallay de Uchugaga, la Trilla, la Corrida de Toros de Tinyayo y Usamasanga, la Carrera a las Cintas.
+                                                            </p>
+
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <hr />
+                                        <hr />
+                                    </ul>
+                                </div>
+
+                                <script type="text/javascript" charset="utf-8">
+                                    jQuery(document).ready(function($) {
+
+                                        function isMobile() {
+                                            return navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) || (navigator.userAgent.match(/Android/i) && navigator.userAgent.match(/Mobile/i));
+                                        }
+
+
+                                        if (!isMobile()) {
+
+                                            $('.open_slide').live('click', function(e) {
+                                                e.preventDefault();
+
+                                                var li_parent = $(this).parents('li');
+                                                var div = li_parent.find('.slide_detail');
+                                                if (!div.is(':visible')) {
+                                                    $('.ch-item').removeClass('ch-item-opened');
+                                                    li_parent.find('.ch-item').addClass('ch-item-opened');
+
+                                                    var slide_opened = $('.slide_detail:visible').length;
+                                                    var same_row = slide_opened && parseInt($('.slide_detail:visible').parents('li').index() / 5) == parseInt($(this).parents('li').index() / 5);
+                                                    var description_height = div.find('.work-description').height();
+                                                    console.log(div.find('.work-description'));
+
+                                                    var animation = function(div, li_parent, same_row) {
+                                                        $.Deferred(function(def) {
+                                                            def.pipe(function() {
+                                                                return $('ul#portfolio hr, .slide_detail').slideUp(500);
+                                                            }).pipe(function() {
+                                                                var offset_y = li_parent.data('isotope-item-position') ?
+                                                                    li_parent.data('isotope-item-position').y + li_parent.offset().top :
+                                                                    li_parent.offset().top;
+
+                                                                return $.scrollTo(offset_y - 40, same_row ? 1 : 500, {
+                                                                    'axis': 'y'
+                                                                });
+                                                            }).pipe(function() {
+                                                                return setTimeout(function() {
+                                                                    var offset_x = li_parent.data('isotope-item-position') ?
+                                                                        li_parent.data('isotope-item-position').x + li_parent.offset().left :
+                                                                        li_parent.offset().left;
+
+                                                                    div.css({
+                                                                        left: -offset_x + $('#wrapper').offset().left,
+                                                                        width: $('#wrapper').width()
+                                                                    }).slideDown(500);
+                                                                    $(li_parent).nextAll('hr:first').slideDown(500, function() {
+                                                                        //recalculate left offset once the slide is opened
+                                                                        var offset_x = li_parent.data('isotope-item-position') ?
+                                                                            li_parent.data('isotope-item-position').x + li_parent.offset().left :
+                                                                            li_parent.offset().left;
+                                                                        div.css({
+                                                                            left: -offset_x + $('#wrapper').offset().left,
+                                                                            width: $('#wrapper').width(),
+                                                                            height: div.outerHeight()
+                                                                        });
+
+                                                                        $(this).css({
+                                                                            height: div.outerHeight()
+                                                                        });
+
+                                                                        div.find('.container').css({
+                                                                            height: div.outerHeight() - 35
+                                                                        });
+                                                                    });
+                                                                }, same_row ? 500 : 1000);
+                                                            });
+                                                        }).resolve();
+                                                    };
+                                                    animation(div, li_parent, same_row);
+                                                } else {
+                                                    div.find('.slide_close').click();
+                                                }
+                                            });
+
+                                            $('.slide_close').click(function() {
+                                                $('.ch-item').removeClass('ch-item-opened');
+                                                $(this).parents('.slide_detail').slideUp('slow');
+                                                $('ul#portfolio hr').slideUp('slow');
+                                            });
+
+                                            $(window).resize(function() {
+                                                if (!isIE8()) {
+                                                    $('.ch-item').removeClass('ch-item-opened');
+                                                    $('.slide_detail').slideUp('slow');
+                                                    $('ul#portfolio hr').slideUp('slow');
+                                                }
+                                            });
+
+
+                                        }
+                                    });
+
+                                </script>
+                                    <!-- START COMMENTS -->
+                                <div id="comments"></div>
+                                <!-- END COMMENTS -->
+                            </div>
+                            <!-- END CONTENT -->
+
+                            <!-- START EXTRA CONTENT -->
+                            <!-- END EXTRA CONTENT -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- END PRIMARY -->
+
+
+                <!-- START FOOTER -->
+
+                <!-- END FOOTER -->
+
+                <!-- START COPYRIGHT -->
+                <div id="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="left span6">
+                                <p>Jeferson Capristano Cabello</p>
+                            </div>
+                            <div class="right span6">
+                                <p>I.E.S.T.P "Sigmund Freud"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END COPYRIGHT -->
+
+            </div>
+            <!-- END WRAPPER -->
+
+        </div>
+        <!-- END BG SHADOW -->
+
+
+
+        <!-- START CUSTOM SCRIPT -->
+    </div>
+        <!-- END CUSTOM SCRIPT -->
+
+        <script type='text/javascript' src='js/jquery.colorbox-min.js'></script>
+        <script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
+        <script type='text/javascript' src='js/jquery.tweetable.js'></script>
+        <script type='text/javascript' src='js/jquery.superfish.js'></script>
+        <script type='text/javascript' src='js/jquery.themepunch.plugins.min.js'></script>
+        <script type='text/javascript' src='js/jquery.themepunch.revolution.js'></script>
+        <script type='text/javascript' src='portfolios/filterable/js/jquery.filterable.js'></script>
+        <script type='text/javascript' src='js/jquery.tipsy.js'></script>
+        <script type='text/javascript' src='js/responsive.js'></script>
+        <script type='text/javascript' src='js/jquery.mobilemenu.js'></script>
+        <script type='text/javascript' src='js/shortcodes.js'></script>
+        <script type='text/javascript' src='js/jquery/jquery.masonry.min.js'></script>
+        <script type='text/javascript' src='js/jquery.custom.js'></script>
+
+</body>
+<!-- END BODY -->
+
+</html>
